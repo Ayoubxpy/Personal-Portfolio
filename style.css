@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  background-color: hsl(227, 11%, 15%);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.card{
+  width: 100%;
+  width: min(500px, 92vw);
+  margin: 0 auto;
+  background-color: #1A1B21;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.header{
+  height: 50vh;              
+  padding-top: 5px;          
+}
+
+
+.header > img{
+  width: 150px;
+  border-radius: 50%;
+  margin: 0;
+  border: 1px solid orange;               
+}
+
+
+.header h1{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin: 10px 0 6px;        
+}
+.header p{
+  color: orange;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0 0 6px;    
+}
+
+.header span{
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  display: block;
+  margin: 0 0 12px;        
+}
+.email-btn,
+.linkedin-btn{
+  padding: 0.7em;
+  margin: 0 5px;
+  width: 125px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition:
+    background-color 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.email-btn{
+  background-color: #ffffff;
+  border: 1px solid #000;
+  font-weight: bold;
+  color: #000;
+}
+
+.linkedin-btn{
+  background-color: #0a66c2;
+  border: 1px solid #0a66c2;
+  font-weight: bold;
+  color: white;
+}
+
+.email-btn:hover,
+.linkedin-btn:hover{
+  background-color: orange;
+  color: white;
+  border-color: #ff6b35;
+  box-shadow: 0 6px 15px rgba(255, 107, 53, 0.4);
+  cursor: pointer;
+}
+
+.btn-icon{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: opacity 0.2s ease;
+}
+
+.email-btn:hover .btn-icon,
+.linkedin-btn:hover .btn-icon{
+  opacity: 0.85;
+}
+
+
+.main{
+  padding-top: 0;
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 0 auto;
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 32px 28px 36px;
+  line-height: 1.6em;
+}
+.main h2 {
+  margin: 0 0 12px;
+}
+
+.main p {
+  margin: 0 0 18px;
+  line-height: 1.6;
+}
+.footer{
+    background-color: white;
+    padding: 15px 0;
+    margin-top: -20px;
+}
+.footer-icon{
+  width: 25px;
+  height: 20px;
+  margin-left: 25px;
+  vertical-align: middle;
+  transition: opacity 0.2s ease;
+}
+.footer-icon:hover{
+  border-color: #ff6b35;
+  box-shadow: 0 6px 15px rgba(255, 107, 53, 0.4);
+  cursor: pointer;
+}
